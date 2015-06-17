@@ -23,6 +23,11 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/channel', {
+        templateUrl: 'views/channel.html',
+        controller: 'ChannelCtrl'
+      })
+
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
